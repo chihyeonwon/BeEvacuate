@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="지진해일 발생시 대피법\n"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
+                android:src="@drawable/tsunami1" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 해안가에 있을 때 지진을 느꼈다면 곧 지진해일이 올 수도 있으니 도로혼잡 등을 고려하여 최대한 빨리 해안이나 하천을 벗어나, 높은 곳으로 대피합니다.\n
+∙ 해안에서 지진을 느끼거나 지진해일 특보가 발령되면 지진해일 긴급대피장소나 높은 곳으로 대피합니다. 피할 시간이 없다면 주변에 있는 철근콘크리트로 된 튼튼한 건물의 3층 이상인 곳 또는 해발 고도 10m이상인 곳(언덕, 야산 등)으로 대피합니다.\n
+∙ 지진해일이 오기 전에는 해안의 바닷물이 갑자기 빠져나가거나, 기차와 같은 큰 소리를 내면서 다가오기도 합니다. 이러한 경우에는 높은 곳으로 대피합니다.\n
+∙ 지진해일은 한 번의 큰 파도로 끝나지 않고 수 시간 동안 여러 번 반복될 수 있습니다. 지진해일 특보가 해제될 때까지 낮은 곳으로 가지 않습니다.\n\n
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                android:src="@drawable/tsunami2" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="지진해일 내습 시 선박 위 대피법.\n"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 해안가에서 조업 중인 선박은 지진해일 발생여부를 인지한 후, 시간적 여유가 있다면 선박을 수심이 깊은 지역으로 이동시킵니다.\n
+∙ 지진해일이 내습하면 항만 등에서 그 파고는 거대해지고 유속이 급격하게 증가하므로 선박의 안전에 특히 주의해야 합니다.\n
+∙ 선박에 대한 조치가 끝난 후에 자신이 육지에 있다면 동료들과 함께 신속히 고지대로 대피합니다.\n
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

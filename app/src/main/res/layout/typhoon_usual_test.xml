@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="태풍 특보 중 행동요령\n"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 태풍이 시작된 때에는 이웃과 함께 신속히 안전한 곳으로 대피하고, 외출을 삼가하며 이웃이나 가족에게 연락하여 안전 여부를 확인하고 위험상황을 알려줍니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="태풍 특보 중\n"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. 나와 가족, 지인들의 안전을 위해 외출은 자제하고 정보를 지속적으로 청취하며 정보가 필요한 사람들과 공유합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ TV, 라디오 등을 통해 기상정보를 청취하여 내가 있는 지역의 상황을 지속적으로 파악하고, 주변에 있는 사람들에게 알려 줍니다.\n
+∙ 가족, 지인, 이웃과 연락하여 안전을 확인하고 위험정보 등을 공유합니다.\n
+∙ 차량은 속도를 줄여 운행하고, 하천변, 해안가 등 급류에 휩쓸릴 수 있는 지역이나 침수 위험지역에는 접근하지 말고 주변에 있는 사람들에게 알려 줍니다.\n
+∙ 특히, 침수된 도로, 지하차도, 교량 등에서는 차량의 통행을 엄격히 금지합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="2. 건물, 집안 등 실내에서의 안전수칙을 미리 알아두고 가족과 함께 확인합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 건물의 출입문, 창문은 닫아서 파손되지 않도록 하고, 창문이나 유리문에서 되도록 떨어져 있도록 합니다.\n
+∙ 강풍으로 인해 피해를 입지 않도록 가급적 욕실과 같이 창문이 없는 방이나 집안의 제일 안쪽으로 이동합니다.\n
+∙ 가스 누출로 2차 피해가 발생할 수 있으므로 미리 차단하고, 감전 위험이 있는 집 안팎의 전기시설은 만지지 않도록 합니다.\n
+∙ 정전이 발생한 경우 양초를 사용하지 말고 휴대용 랜턴, 휴대폰 등을 사용합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="3. 위험지역은 접근하지 말고, 즉시 안전한 지역으로 주변에 있는 사람들과 함께 대피합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 침수지역, 산간·계곡 등 위험지역에 있거나 대피 권고를 받았을 경우에는 주변에 있는 사람들과 함께 즉시 안전한 지역으로 대피합니다.\n
+∙ 특히, 주변에 연세가 많거나 홀로계신 어르신, 어린이, 장애인 등 대피에 어려움이 있는 분들은 안전하게 대피할 수 있도록 돕습니다.\n
+∙ 공사장, 전신주, 지하 공간 등 위험지역에는 접근하지 않도록 합니다.\n
+∙ 대피할 때는 침수되거나 파손된 도로, 교량 주변은 피하도록 합니다.\n
+∙ 농촌지역에서는 논둑이나 물꼬를 보러 나가지 않습니다.\n
+∙ 이동식 가옥이나 임시 시설에 거주할 경우에는 견고한 건물로 즉시 이동하고 주변에 있는 사람들에게 위험지역을 알려줍니다.\n
+∙ 운행 중인 선박은 주변에 있는 선박이나 해경에 현재 위치를 알려주고 태풍의 이동경로에서 최대한 멀리 대피합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

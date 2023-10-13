@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_action"
+            android:icon="@drawable/run"
+            android:title="국민행동요령"
+            android:checked="false" />
+        <item
+            android:id="@+id/menu_message"
+            android:icon="@drawable/mobile"
+            android:title="재난문자"
+            android:checked="false" />
+        <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/shelter"
+            android:title="대피소조회"
+            android:checked="false"/>
+        <item
+            android:id="@+id/menu_112"
+            android:icon="@drawable/disaster"
+            android:title="신고하기"
+            android:checked="false" />
+    </group>
+</menu>

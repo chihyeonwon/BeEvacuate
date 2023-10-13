@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="평상 시 행동 요령\n"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 호우는 하천 범람, 산사태, 침수 등을 통해 인명피해와 재산피해를 발생시킬 수 있기 때문에 가족이나 이웃과 함께 대비합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="사전 준비\n"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. 과거에 발생했던 내 지역의 정보는 미리 확인하고 가족이나 이웃과 함께 공유합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 내가 거주하거나 생활하는 지역의 홍수, 침수(저지대), 산사태, 해일 등 재해위험 요인을 미리 확인합니다.\n
+∙ 주변의 배수로, 빗물받이는 수시로 청소를 실시하고 비탈면, 옹벽, 축대 등이 위험할 경우 정비하거나 시·군·구청에 신고합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="2. 재난정보를 수신할 수 있도록 가족이나 이웃과 함께 준비합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 기상특보나 홍수, 산사태 등 재난 예·경보를 수신할 수 있도록 TV, 라디오 등을 준비하고 스마트폰에 ‘안전디딤돌’ 앱 등을 미리 설치합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="3. 가족이나 이웃과 함께 대피방법 등에 대한 약속을 미리 정합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 지역의 대피 장소와 안전한 이동 방법, 대피요령을 미리 숙지하고, 어린이들에게 알려 주어야 합니다.\n
+∙ 국민재난안전포털(www.safekorea.go.kr), 안전디딤돌 앱 등을 활용\n
+∙ 비상상황이 예견될 때에는 가족이나 이웃과 함께 즉시 안전한 곳으로 이동할 수 있도록 하고, 가족이 각각 이동할 때를 대비하여 다시 만날 장소를 미리 정합니다.\n
+∙ 대피경로는 하천변, 산길, 전신주나 변압기 주변 등은 피하도록 합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="4. 재난이 발생할 경우를 대비하여 가족과 함께 비상용품을 미리 준비합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 응급약품, 손전등, 식수, 비상식량, 라디오, 핸드폰 충전기, 휴대용 버너, 담요 등 비상용품을 미리 한 곳에 준비해 둡니다.\n
+∙ 차량이 있는 경우에는 연료를 미리 채워 두고, 차량이 없을 경우에는 차량이 있는 가까운 이웃과 같이 이동할 수 있도록 미리 약속해 둡니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="5. 재난에 대비한 지속적인 관심과 정비를 함께 합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 비상용품의 유효기간을 지속적으로 확인하여 교체하고, 대피장소, 대피경로 등에 대해서는 지속적으로 관심을 가지고 정비합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

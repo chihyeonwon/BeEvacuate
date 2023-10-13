@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapInfoActivity"
+    android:gravity="center_vertical"
+    android:layout_margin="15dp"
+    android:background="@color/white"
+    android:id="@+id/map_info_layout">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/map_info_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="대피소명"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/map_info_addr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="주소"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/map_info_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="면적"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/map_info_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="거리"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/map_back_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/left_arrow"
+                />
+
+
+            <Button
+                android:id="@+id/map_route_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/route"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. 가족의 상황과 부상자를 살펴보고 즉시 구조 요청을 합니다.\n"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 흔들림이 멈추면 함께 있는 가족끼리 부상이 없는지 집에 위험이 없는지 확인합니다.\n
+∙ 부상자가 있으면 이웃과 서로 협력하여 응급처치하고 소방서(119) 등 구조구급기관에 신고합니다.\n
+
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="2. 주변의 피해 상황에 따라 귀가 여부를 결정합니다.\n"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 지진이 발생하면 라디오 및 주변에 있는 공공기관이 제공하는 정보에 따라 행동하며, 귀가여부를 판단합니다.\n
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="3. 가정이나 사무실로 돌아간 후에는 안전에 유의하여 주변을 확인합니다.\n"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 가정이나 사무실의 피해 상황을 확인하고, 안전이 의심된다면 전문가의 확인을 받도록 합니다.\n
+∙ 옷장이나 사무실 보관함 등의 내용물이 쏟아져 내려 부상을 입을 수도 있으므로 문을 열 때 주의합니다.\n
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="4. 올바른 정보를 항상 확인합니다.\n"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 근거없는 유언비어에 유의하고, TV‧라디오나 공공기관에서 제공하는 정보를 확인하여 지진 국민행동요령에 따릅니다. \n
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

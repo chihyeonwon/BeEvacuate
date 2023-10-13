@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="호우특보 예보시 행동요령\n"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ TV, 라디오, 인터넷 등에서 호우특보가 예보된 때에는 거주 지역에 영향을 주는 시기를 미리 파악하고, 호우가 발생하기 전에 가족이나 지역주민과 함께 피해를 예방하기 위해 필요한 조치를 합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="호우특보 예보시\n"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. 호우예보지역과 시간을 주변에 있는 사람들과 함께 공유합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ TV, 라디오, 인터넷, 스마트폰의 안전디딤돌 앱 등으로 기상상황을 미리 파악하여 가족과 주변 사람들과 함께 공유하고 대비합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="2. 산간·계곡, 하천, 방파제 등 위험지역에서는 주변에 있는 사람들과 함께 안전한 곳으로 이동합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 산간·계곡, 하천, 방파제 등에서 야영이나 물놀이를 멈추고 안전한 곳으로 대피합니다.\n
+∙ 저지대나 상습 침수지역, 산사태 위험지역, 지하 공간이나 붕괴 우려가 있는 노후주택·건물 등에서는 안전한 곳으로 이동합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="3. 차량이나 시설물 등의 보호를 위해 가족과 지역주민이 함께 미리 준비합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 하천이나 해변, 저지대에 주차된 차량은 안전한 곳으로 이동합니다.\n
+∙ 가정의 하수구나 집 주변의 배수구를 미리 점검하고 막힌 곳은 뚫어야 합니다.\n
+∙ 침수가 예상되는 아파트 지하주차장, 건물 등에서는 기상 특보가 모래 주머니, 물막이 판 등을 이용하여 피해를 예방합니다.\n
+∙ 농경지는 배수로를 정비하여 피해를 예방합니다.\n
+∙ 공사장, 주변의 배수로, 빗물받이, 비탈면, 옹벽, 축대 등은 미리 점검합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="4. 가족과 함께 비상용품을 준비하여 재난 발생에 대비합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 비상시 신속히 응급용품을 가지고 대피할 수 있도록 사전에 배낭 등에 모아둡니다.\n
+∙ 상수도 공급이 중단 될 수 있으므로, 욕조 등에 미리 물을 받아둡니다.\n
+∙ 재난정보 수신을 위해 스마트폰에 안전디딤돌 앱이 설치되었는지 확인하고 가까운 행정복지센터(주민센터) 등과 긴급 연락망을 확인합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="5. 외출은 자제하고 연세 많은 어르신 등의 안부를 수시로 확인합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 약속된 일정은 취소하거나 조정하여 외출을 자제하고, 주변에 정보를 알려 줍니다.\n
+∙ 연세 많은 어르신, 어린이, 장애인 등은 외출을 하지 않도록 당부하고 수시로 전화 등을 통해 안부를 확인합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

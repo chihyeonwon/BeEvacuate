@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="호우 후 행동요령\n"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 호우가 지나간 후에는 이웃 등 주변의 피해 상황을 확인하고, 가까운 행정복지센터 등에 피해를 신고하여 보수·보강을 하도록 합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="호우 이후\n"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. 가족과 지인의 안전 여부를 주위 사람들과 함께 확인합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 가족과 지인에게 연락하여 안전 여부를 확인하고, 연락이 되지 않고 실종이 의심될 경우에는 가까운 경찰서에 신고합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="2. 호우로 인한 피해 여부를 주변에 있는 사람들과 함께 확인합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 대피 후 집으로 돌아온 경우 반드시 주택 등의 안전 여부를 확인하고 출입합니다.\n
+∙ 파손된 시설물(주택, 상하수도, 축대, 도로 등)은 가까운 시·군·구청이나 행정복지센터(주민센터)에 신고합니다.\n
+∙ 파손된 사유시설을 보수 또는 복구할 때에는 반드시 사진을 찍어 둡니다.\n
+∙ 침수된 도로나 교량은 파손되었을 수 있으므로 건너지 않습니다.\n
+∙ 하천 제방은 무너질 수 있으니 가까이 가지 않습니다.\n
+∙ 고립된 지역에서는 무리하게 물을 건너지 말고, 119에 신고하거나 주변에 도움을 요청합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="3. 주변에 있는 사람들과 함께 호우로 인한 2차 피해를 방지합니다.\n"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="
+∙ 물이 빠져나가고 있을 때에는 기름이나 동물 사체 등 오염된 경우가 많으므로 물에서 멀리 떨어져 있도록 합니다.\n
+∙ 수돗물이나 저장되었던 식수는 오염 여부를 확인한 후에 사용합니다.\n
+∙ 침수된 음식이나 재료는 식중독의 위험이 있으므로 사용하지 않습니다.\n
+∙ 침수된 주택은 가스와 전기차단기가 내려가 있는지 확인하고, 한국가스안전공사(1544-4500)와 한국전기안전공사(1588-7500) 또는 전문가의 안전점검 후에 사용합니다.\n
+∙ 호우로 피해를 입은 주택 등은 가스가 누출될 수 있으므로 창문을 열어 충분히 환기하고, 성냥불이나 라이터는 환기 전까지 사용하지 않습니다.\n
+∙ 쓰러진 농작물은 일으켜 세우고, 침수된 논과 밭을 배수할 때에는 작물에 묻은 흙, 오물 등을 깨끗한 물로 씻어내고 병해충 방제를 실시합니다.\n\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
