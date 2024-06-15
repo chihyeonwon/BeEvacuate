@@ -8,6 +8,13 @@ In addition, since the core of disaster management and safety management is to p
 it is necessary to focus on preventive safety management.
 In this case, the government should recognize that it is the foremost local government 
 in disaster management and take the primary role in local governments.
+#### 대피소 길찾기 기능
+![image](https://github.com/chihyeonwon/BeEvacuate/assets/58906858/ff803c85-d1b9-47dc-8222-ab495fd7f8a3)    
+![image](https://github.com/chihyeonwon/BeEvacuate/assets/58906858/eee363a7-7f6f-4e3f-a748-48e8d6a9cb0b)    
+#### 재난 상황 알림 기능
+![image](https://github.com/chihyeonwon/BeEvacuate/assets/58906858/a00d58d2-69d5-42dc-bdbd-d90ff30f1d60)    
+#### 대피 요령 정보 기능
+![image](https://github.com/chihyeonwon/BeEvacuate/assets/58906858/8fed6ed9-b156-4967-8e9a-398ee9c4361b)     
 
 # BeEvacuate
 한국정보처리학회 추계학술대회 대피소 안내 앱 프로젝트 발표 자료
