@@ -9,7 +9,7 @@ it is necessary to focus on preventive safety management.
 In this case, the government should recognize that it is the foremost local government 
 in disaster management and take the primary role in local governments.
 
-![KakaoTalk_20240616_184937229](https://github.com/chihyeonwon/BeEvacuate/assets/58906858/74475080-d05b-432a-9178-f0dfe95d3429)
+![image](https://github.com/chihyeonwon/BeEvacuate/assets/58906858/b628f8eb-3426-49bd-a1a6-274beea00479)
 
 
 #### 대피소 길찾기 기능
