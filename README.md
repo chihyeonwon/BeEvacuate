@@ -8,6 +8,10 @@ In addition, since the core of disaster management and safety management is to p
 it is necessary to focus on preventive safety management.
 In this case, the government should recognize that it is the foremost local government 
 in disaster management and take the primary role in local governments.
+
+![KakaoTalk_20240616_184937229](https://github.com/chihyeonwon/BeEvacuate/assets/58906858/74475080-d05b-432a-9178-f0dfe95d3429)
+
+
 #### 대피소 길찾기 기능
 ![image](https://github.com/chihyeonwon/BeEvacuate/assets/58906858/ff803c85-d1b9-47dc-8222-ab495fd7f8a3)    
 ![image](https://github.com/chihyeonwon/BeEvacuate/assets/58906858/eee363a7-7f6f-4e3f-a748-48e8d6a9cb0b)    
